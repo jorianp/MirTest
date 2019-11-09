@@ -1,0 +1,24 @@
+.control__main {
+    width: 473px;
+    margin-top: 177px;
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .control__main {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .control__main {
+        width: 570px;
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .control__main {
+        width: 288px;
+        margin-top: 41px;
+    }
+}

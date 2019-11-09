@@ -1,0 +1,17 @@
+.header__ios {
+    margin-left: 27px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header__ios {
+        width: 87px;
+        margin-left: 4px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header__ios {
+        width: 127px;
+        margin-left: 0;
+    }
+}

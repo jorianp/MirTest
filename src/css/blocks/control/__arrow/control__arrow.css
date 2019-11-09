@@ -1,0 +1,11 @@
+.control__arrow {
+    border-radius: 100px !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .control__arrow {
+        display: none !important;
+    }
+}

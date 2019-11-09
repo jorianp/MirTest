@@ -1,0 +1,6 @@
+@import url('./__description/problem__description.css');
+@import url('./__img/problem__img.css');
+
+.problem {
+    display: flex;
+}

@@ -1,0 +1,28 @@
+.intro__description {
+    margin: 0;
+    margin-top: 35px;
+    font-family: 'TrebuchetMS';
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 34px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__description {
+        font-family: 'Helvetica';
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__description {
+        font-family: 'Helvetica';
+        font-size: 16px;
+        margin-top: 5px;
+        line-height: 20px;
+    }
+}

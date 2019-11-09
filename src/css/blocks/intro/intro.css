@@ -1,0 +1,37 @@
+@import url('./__android/intro__android.css');
+@import url('./__button-ios/intro__button-ios.css');
+@import url('./__button-android/intro__button-android.css');
+@import url('./__description/intro__description.css');
+@import url('./__ios/intro__ios.css');
+@import url('./__list/intro__list.css');
+@import url('./__switch/intro__switch.css');
+@import url('./__title/intro__title.css');
+@import url('./__content/intro__content.css');
+@import url('./__main/intro__main.css');
+
+.intro {
+    background: url('../../../images/fon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .intro {
+        background-size: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        height: 641px;
+        background: url('../../../images/fon1.png');
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro {
+        height: 1048px;        
+        background-size: unset;
+    }
+}

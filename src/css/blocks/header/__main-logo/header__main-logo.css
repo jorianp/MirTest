@@ -1,0 +1,12 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header__main-logo {
+        width: 97px;
+        height: 37px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header__main-logo {
+        width: 110px;
+    }
+}

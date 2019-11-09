@@ -1,0 +1,19 @@
+.control__title {
+    color: #FF8A65;
+    margin: 0;
+    margin-top: 89px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .control__title {
+        margin-top: 0;
+        width: 488px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .control__title {
+        width: 280px;
+        margin-top: 0;
+    }
+}

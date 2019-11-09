@@ -1,0 +1,43 @@
+.intro__ios {
+    width: 251px;
+    position: absolute;
+    top: 57px;
+    left: 8px;
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 500ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro__ios-chk {
+    width: 293px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 500ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__ios {
+        width: 153px;
+        top: 31px;
+    }
+    .intro__ios-chk {
+        width: 177px;
+        top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__ios {
+        width: 151px;
+        top: 37px;
+    }
+    .intro__ios-chk {
+        width: 181px;
+        top: 0;
+    }
+}

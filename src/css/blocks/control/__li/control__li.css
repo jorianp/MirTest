@@ -1,0 +1,15 @@
+.control__li {
+    font-family: 'TrebuchetMS';
+    font-size: 18px;
+    color: #FF8A65;;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .control__li {
+        font-family: 'Helvetica';
+        font-size: 16px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,33 @@
+.intro__content {
+    max-width: 1498px;
+    height: 815px;
+    padding-top: 156px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .intro__content {
+        max-width: 1140px;
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__content {
+        max-width: 570px;
+        height: 641px;
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__content {
+        max-width: 288px;
+        height: 1048px;
+        padding-top: 87px;
+        flex-direction: column;
+        justify-content: unset;
+    }
+}

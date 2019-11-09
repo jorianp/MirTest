@@ -1,0 +1,10 @@
+.footer__lang {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer__lang {
+        justify-content: flex-start;
+    }
+}

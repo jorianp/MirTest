@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="712px" height="130px" viewBox="0 0 712 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="623" cy="41" r="41"></circle>
+        <filter x="-51.8%" y="-39.6%" width="203.7%" height="203.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.247058824   0 0 0 0 0.28627451  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.729411765   0 0 0 0 0.062745098   0 0 0 0 0.0470588235  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M41,82 C63.6436747,82 82,63.6436747 82,41 C82,31.3445952 78.6624106,22.4687261 73.078002,15.4631629 C65.56596,6.03941036 53.9882699,0 41,0 C18.3563253,0 0,18.3563253 0,41 C0,63.6436747 18.3563253,82 41,82 Z" id="path-3"></path>
+        <filter x="-51.8%" y="-39.6%" width="203.7%" height="203.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.247058824   0 0 0 0 0.28627451  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.729411765   0 0 0 0 0.062745098   0 0 0 0 0.0470588235  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MZ-1920-mian" transform="translate(-859.000000, -1745.000000)">
+            <g id="контроль" transform="translate(210.000000, 1443.000000)">
+                <g id="arrow" transform="translate(673.000000, 316.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FF5252" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <polyline id="Path-22" stroke="#FFFFFF" stroke-width="4" points="618.641687 25 632.641687 41.0891209 618.641687 57"></polyline>
+                    <g id="Oval-Copy-8" transform="translate(41.000000, 41.000000) scale(-1, 1) translate(-41.000000, -41.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FF5252" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <polyline id="Path-22-Copy" stroke="#FFFFFF" stroke-width="4" transform="translate(39.641687, 41.000000) scale(-1, 1) translate(-39.641687, -41.000000) " points="32.6416869 25 46.6416869 41.0891209 32.6416869 57"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

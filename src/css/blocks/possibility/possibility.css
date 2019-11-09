@@ -1,0 +1,7 @@
+@import url('./__description/possibility__description.css');
+@import url('./__img/possibility__img.css');
+
+.possibility {
+    display: flex;
+    align-items: center;
+}

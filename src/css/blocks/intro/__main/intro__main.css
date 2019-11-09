@@ -1,0 +1,15 @@
+.intro__main {
+    max-width: 731px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__main {
+        max-width: 570px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__main {
+        max-width: 288px;
+    }
+}

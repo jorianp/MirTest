@@ -1,0 +1,28 @@
+.problem__description {
+    max-width: 195px;
+    align-self: center;
+    margin: 0;
+    margin-left: 38px;
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .problem__description {
+        max-width: 270px;
+        margin-left: 30px;
+        font-family: 'Helvetica';
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .problem__description {
+        max-width: 293px;
+        margin-left: 35px;
+        font-family: 'Helvetica';
+        font-size: 14px;
+    }
+}

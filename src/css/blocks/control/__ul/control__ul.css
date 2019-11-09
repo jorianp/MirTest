@@ -1,0 +1,13 @@
+.control__ul {
+    width: 809px;
+    display: flex;
+    align-items: center;
+    /* height: 727px !important; */
+    /* margin-left: -66px; */
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .control__ul {
+        margin: 0;
+    }
+}

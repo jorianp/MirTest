@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Eliseev Alexey">
+    <meta name="description" content='Тестовое задание от "Медицинские информационные решения" на позицию HTML-верстальщик / Junior Frontend-разработчик'>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>Mir</title>
+</head>
+<body>
+
+    <div class="page">
+
+        <header class="header">
+            <div class="header__content">
+                <img src="<%=require('./images/Mainlogo.svg')%>" alt="" class="header__main-logo">
+                <img src="<%=require('./images/logo.svg')%>" alt="" class="header__logo1">
+                <div class="header__download">
+                    <a href="" class="header__link"><img src="<%=require('./images/PlayStore.svg')%>" alt="" class="header__android"></a>
+                    <a href="" class="header__link"><img src="<%=require('./images/AppStore.svg')%>" alt="" class="header__ios"></a>
+                    <img src="<%=require('./images/logo.svg')%>" alt="" class="header__logo">
+                </div>
+                <img src="<%=require('./images/lines.svg')%>" alt="" class="header__menu">
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="intro">
+                <div class="intro__content">
+                    <div class="intro__main">
+                        <p class="intro__title title">Все данные о вашем здоровье в одном приложении</p>
+                        <p class="intro__description">Универсальная электронная медицинская карта и сервис для дистанционного сопровождения пациентов, которая решает следующие проблемы:</p>
+                            
+                        <div class="intro__list">
+                        
+                            <div class="problem">
+                                <img src="<%=require('./images/mob.svg')%>" alt="" class="problem__img">
+                                <p class="problem__description">Все необходимое в одном месте</p>
+                            </div>
+                            
+                            <div class="problem">
+                                <img src="<%=require('./images/stetos.svg')%>" alt="" class="problem__img">
+                                <p class="problem__description">Разработано врачами</p>
+                            </div>
+                            
+                            <div class="problem">
+                                <img src="<%=require('./images/lock.svg')%>" alt="" class="problem__img">
+                                <p class="problem__description">Безопасность данных</p>
+                            </div>
+                            
+                            <div class="problem">
+                                <img src="<%=require('./images/rub.svg')%>" alt="" class="problem__img">
+                                <p class="problem__description">Бесплатное приложение</p>
+                            </div>
+                            
+                        </div>
+                        <div class="header__download-320">
+                            <a href="" class="header__link"><img src="<%=require('./images/PlayStore1.svg')%>" alt="" class="header__android"></a>
+                            <a href="" class="header__link"><img src="<%=require('./images/AppStore1.svg')%>" alt="" class="header__ios"></a>
+                        </div>
+                    </div>
+        
+                    <div class="intro__switch">
+                        <img src="<%=require('./images/ios.png')%>" alt="" class="intro__ios">
+                        <img src="<%=require('./images/android.png')%>" alt="" class="intro__android intro__android-dis">
+                        <button class="intro__button-ios button"></button>
+                        <button class="intro__button-android button button-checked"></button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="possibilities">
+                <img src="<%=require('./images/back.png')%>" alt="" class="possibilities__back">
+                <img src="<%=require('./images/backs.png')%>" alt="" class="possibilities__backs">
+                <div class="possibilities__content">
+                    <p class="possibilities__title title">Возможности приложения</p>
+
+                    <div class="possibilities__possible">
+                
+                        <div class="possibility">
+                            <img src="<%=require('./images/health.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Контроль показателей своего здоровья</p>
+                        </div>
+                                    
+                        <div class="possibility">
+                            <img src="<%=require('./images/docs.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Храниние медицинских документов</p>
+                        </div>
+                    
+                        <div class="possibility">
+                            <img src="<%=require('./images/calendar.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Календарь<br> менструального цикла</p>
+                        </div>
+                    
+                        <div class="possibility">
+                            <img src="<%=require('./images/news.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Актуальные<br> новости</p>
+                        </div>
+                    
+                        <div class="possibility">
+                            <img src="<%=require('./images/drugs.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Создание курсов<br> приема лекарств</p>
+                        </div>
+                
+                        <div class="possibility">
+                            <img src="<%=require('./images/notion.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Создание<br> напоминаний</p>
+                        </div>
+                
+                        <div class="possibility">
+                            <img src="<%=require('./images/note.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description">Дневник течения беременности</p>
+                        </div>
+        
+                        <div class="possibility">
+                            <img src="<%=require('./images/consonline.svg')%>" alt="" class="possibility__img">
+                            <p class="possibility__description possibility__description_soon">Консультации<br> врачей онлайн</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </section>
+
+            <section class="control">
+                <div class="control__content">
+                    <div class="control__main">
+                        <p class="control__title title">Контролируйте показатели своего здоровья</p>
+                        <ul class="control__list">
+                            <li class="control__li"><span class="control__option">Артериальное давление</span></li>
+                            <li class="control__li"><span class="control__option">Частота сердечных сокращений</span></li>
+                            <li class="control__li"><span class="control__option">Сахар в крови</span></li>
+                            <li class="control__li"><span class="control__option">Вес</span></li>
+                            <li class="control__li"><span class="control__option">Рост</span></li>
+                            <li class="control__li"><span class="control__option">Температура</span></li>
+                            <li class="control__li"><span class="control__option">Произвольные показатели</span></li>
+                        </ul>
+                        <div class="control__list-768">
+                            <ul class="control__list-76">                    
+                                <li class="control__li"><span class="control__option">Вес</span></li>
+                                <li class="control__li"><span class="control__option">Рост</span></li>
+                                <li class="control__li"><span class="control__option">Температура</span></li>
+                                <li class="control__li"><span class="control__option">Произвольные показатели</span></li>
+                            </ul>
+                            <ul class="control__list-76 control__list-78">
+                                <li class="control__li"><span class="control__option">Артериальное давление</span></li>
+                                <li class="control__li"><span class="control__option">Сахар в крови</span></li>
+                                <li class="control__li"><span class="control__option">Частота сердечных сокращений</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="control__swiper">
+
+                        <div class="glide">
+                            <div data-glide-el="track" class="glide__track slider-box__gradient">
+                                <ul class="glide__slides control__ul">
+                                    <!--Шаблон карточек тут -->
+                                    <li class="glide__slide control__slide-li control__slide-li-one"><img src="<%=require('./images/pulse.png')%>" alt="" class="control__screen control__slide-li_one"></li>
+                                    <li class="glide__slide control__slide-li control__slide-li-two"><img src="<%=require('./images/weight.png')%>" alt="" class="control__screen control__slide-li_two"></li>
+                                    <li class="glide__slide control__slide-li control__slide-li-three"><img src="<%=require('./images/graphs.png')%>" alt="" class="control__screen control__slide-li_three"></li>
+                                    <li class="glide__slide control__slide-li control__slide-li-four control__slide-li--active"><img src="<%=require('./images/sensors.png')%>" alt="" class="control__screen control__screen--active"></li>
+                                    <li class="glide__slide control__slide-li control__slide-li-five"><img src="<%=require('./images/height.png')%>" alt="" class="control__screen control__slide-li_five"></li>
+                                    <li class="glide__slide control__slide-li control__slide-li-six"><img src="<%=require('./images/sugar.png')%>" alt="" class="control__screen control__slide-li_six"></li>
+                                    <li class="glide__slide control__slide-li control__slide-li-seven"><img src="<%=require('./images/temperature.png')%>" alt="" class="control__screen control__slide-li_seven"></li>
+                                </ul>
+                            </div>
+
+                            <div class="glide__arrows" data-glide-el="controls">
+                                    <!--                left-->
+                                <button class="glide__arrow control__arrow  glide__arrow--left" data-glide-dir="<">
+                                    <svg width="82" height="82" viewBox="10 7 40 40" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <circle cx="30" cy="27" r="20" fill="#FF5252"/>
+                                        </g>
+                                        <path d="M28.4144 27.0001L33.7073 32.293L32.293 33.7072L25.5859 27.0001L32.293 20.293L33.7073 21.7072L28.4144 27.0001Z"
+                                            fill="white"/>
+                                        <defs>
+                                            <filter id="filter0_d" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                               values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                            <feOffset dy="3"/>
+                                            <feGaussianBlur stdDeviation="5"/>
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.0534375 0 0 0 0 0.101475 0 0 0 0 0.225 0 0 0 0.2 0"/>
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </button>
+                                    <!--                next-->
+                                <button class="glide__arrow control__arrow  glide__arrow--right" data-glide-dir=">">
+                                    <svg width="82" height="82" viewBox="10 7 40 40" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <circle r="20" transform="matrix(-1 0 0 1 30 27)" fill="#FF5252"/>
+                                        </g>
+                                        <path d="M31.5856 27.0001L26.2927 32.293L27.707 33.7072L34.4141 27.0001L27.707 20.293L26.2927 21.7072L31.5856 27.0001Z"
+                                            fill="white"/>
+                                        <defs>
+                                            <filter id="filter0_d" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse"
+                                                    color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy="3"/>
+                                                <feGaussianBlur stdDeviation="5"/>
+                                                <feColorMatrix type="matrix"
+                                                    values="0 0 0 0 0.0534375 0 0 0 0 0.101475 0 0 0 0 0.225 0 0 0 0.2 0"/>
+                                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <img src="<%=require('./images/logoFooter.svg')%>" alt="" class="footer__logo">
+                <div class="footer__main">
+                    <div class="footer__lang">
+                        <a href="" class="footer__text footer__text-en">EN</a><span class="footer__text"> / </span><a href="" class="footer__text footer__text-ru">RU</a>
+                    </div>
+                    <p class="footer__text">Моё Здоровье</p>
+                    <p class="footer__text">2016–2019 © ООО «МИР»</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

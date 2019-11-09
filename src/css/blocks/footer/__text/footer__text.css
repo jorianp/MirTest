@@ -1,0 +1,32 @@
+.footer__text {
+    margin: 0;
+    font-family: 'TrebuchetMS';
+    font-size: 14px;
+    color: #BDBDBD;
+    letter-spacing: 0;
+    text-align: right;
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer__text-en {
+    margin-right: 5px;
+}
+
+.footer__text-ru {
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer__text {
+        font-family: 'Helvetica';
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer__text {
+        text-align: left;
+    }
+}

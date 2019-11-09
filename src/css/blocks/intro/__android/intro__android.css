@@ -1,0 +1,43 @@
+.intro__android {
+    width: 251px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 500ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro__android-dis {
+    width: 293px;
+    top: 0;
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 500ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__android {
+        width: 153px;
+        top: 16px;
+    }
+    .intro__android-dis {
+        width: 177px;
+        top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__android {
+        width: 151px;
+        top: 25px;
+    }
+    .intro__android-dis {
+        width: 181px;
+        right: 5px;
+        top: 0;
+    }
+}

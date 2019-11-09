@@ -1,0 +1,12 @@
+.possibilities__back {
+    position: absolute;
+    width: 365px;
+    top: 280px;
+    left: -9px;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .possibilities__back {
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+.control__frame {
+    width: 358px;
+    height: 727px;
+    background: url('../../../../images/phone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+/* 
+    display: flex;
+    align-items: center; */
+}
+
+/* .control__frame {
+    position: absolute;
+    width: 358px;
+    height: 727px;
+    left: 229px;
+} */

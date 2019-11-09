@@ -1,0 +1,29 @@
+.intro__switch {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 491px;
+    height: 729px;
+    margin-top: 86px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__switch {
+        position: absolute;
+        width: 280px;
+        height: 420px;
+        margin: 0;
+        top: 230px;
+        right: 99px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__switch {
+        width: 288px;
+        height: 435px;
+        position: relative;
+        margin-top: 30px;
+    }
+}

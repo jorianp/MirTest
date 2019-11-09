@@ -1,0 +1,25 @@
+.header__download-320 {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header__download {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 7px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header__download {
+        display: none;
+    }
+    .header__download-320 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+}

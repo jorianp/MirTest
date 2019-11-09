@@ -1,0 +1,27 @@
+.footer__content {
+    max-width: 1489px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .footer__content {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer__content {
+        max-width: 570px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer__content {
+        max-width: 288px;
+    }
+}

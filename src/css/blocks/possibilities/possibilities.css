@@ -1,0 +1,15 @@
+@import url('./__possible/possibilities__possible.css');
+@import url('./__title/possibilities__title.css');
+@import url('./__content/possibilities__content.css');
+@import url('./__back/possibilities__back.css');
+@import url('./__backs/possibilities__backs.css');
+
+.possibilities {
+    position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .possibilities {
+        margin-top: 27px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('./__download/header__download.css');
+@import url('./__ios/header__ios.css');
+@import url('./__logo/header__logo.css');
+@import url('./__main-logo/header__main-logo.css');
+@import url('./__content/header__content.css');
+@import url('./__menu/header__menu.css');
+@import url('./__android/header__android.css');
+
+.header {
+    width: 100%;
+    position: absolute;
+    box-shadow: 0 3px 9px 0 rgba(0,63,73,0.10);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header {
+        box-shadow: none;
+    }
+}

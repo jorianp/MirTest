@@ -1,0 +1,36 @@
+.control__swiper {
+    width: 809px;
+    height: 727px;
+    position: relative;
+    margin-left: 128px;
+    margin-top: 177px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .control__swiper {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .control__swiper {
+        width: 569px;
+        height: 511px;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-bottom: 97px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .control__swiper {
+        width: 290px;
+        height: 254.17px;
+        margin-top: 32px;
+        margin-left: 0;
+        margin-bottom: 19px;
+    }
+}
