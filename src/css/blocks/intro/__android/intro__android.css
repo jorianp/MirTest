@@ -21,10 +21,12 @@
     .intro__android {
         width: 153px;
         top: 16px;
+        right: 115px;
     }
     .intro__android-dis {
         width: 177px;
         top: 0;
+        right: 0;
     }
 }
 
@@ -32,6 +34,7 @@
     .intro__android {
         width: 151px;
         top: 25px;
+        right: 130px;
     }
     .intro__android-dis {
         width: 181px;
