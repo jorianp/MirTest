@@ -10,6 +10,13 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .control__content {
+        max-width: 824px;
+        flex-direction: column;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .control__content {
         max-width: 570px;

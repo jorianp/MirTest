@@ -9,7 +9,7 @@
     letter-spacing: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1439px) {
     .problem__description {
         max-width: 270px;
         margin-left: 30px;

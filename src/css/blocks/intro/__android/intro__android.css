@@ -1,25 +1,23 @@
 .intro__android {
-    width: 251px;
+    width: 230px;
     position: absolute;
-    top: 30px;
-    right: 0;
-    transition: 500ms;
+    top: 55px;
+    right: 170px;
+    transition: top 1s, right 2s, width 1s;
+    
     transition-timing-function: ease-in-out;
-    -webkit-transition: 500ms;
-    -webkit-transition-timing-function: ease-in-out;
 }
 
 .intro__android-dis {
     width: 293px;
     top: 0;
-    transition: 500ms;
+    right: 0;
+    transition: top 1s,right 2s, width 1s;
     transition-timing-function: ease-in-out;
-    -webkit-transition: 500ms;
-    -webkit-transition-timing-function: ease-in-out;
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1439px) {
     .intro__android {
         width: 153px;
         top: 16px;

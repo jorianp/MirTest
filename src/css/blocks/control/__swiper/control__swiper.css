@@ -15,9 +15,18 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .control__swiper {
+        max-width: 569px;
+        height: 511px;
+        margin-top: 30px;
+        margin-bottom: 97px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .control__swiper {
-        width: 569px;
+        max-width: 569px;
         height: 511px;
         margin-top: 30px;
         margin-left: 0;

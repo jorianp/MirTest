@@ -4,7 +4,7 @@
     letter-spacing: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1439px) {
     .title {
         font-family: 'TrebuchetMS';
         font-size: 24px;

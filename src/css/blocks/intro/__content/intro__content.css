@@ -14,8 +14,17 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .intro__content {
+        max-width: 824px;
+        height: 600px;
+        position: relative;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .intro__content {
+        position: relative;
         max-width: 570px;
         height: 641px;
         padding-top: 80px;

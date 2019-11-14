@@ -9,6 +9,13 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .control__main {
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .control__main {
         width: 570px;

@@ -8,6 +8,25 @@
     display: none;
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .control__list {
+        margin-top: 20px;
+        height: 103px;
+        display: none;
+    }
+
+    .control__list-768 {
+        display: block;
+        display: flex;
+    }
+    .control__list-76 {
+        padding-inline-start: 20px;
+    }
+    .control__list-78 {
+        margin-left: 265px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .control__list {
         margin-top: 20px;

@@ -1,3 +1,7 @@
+.header__android {
+    cursor: pointer;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .header__android {
         width: 87px;
@@ -9,4 +13,12 @@
         width: 127px;
         height: 36px;
     }
+}
+
+.header__android:hover {
+    fill: #111;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
